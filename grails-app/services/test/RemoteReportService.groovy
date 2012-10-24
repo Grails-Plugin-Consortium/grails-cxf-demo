@@ -13,8 +13,8 @@ class RemoteReportService {
     @WebMethod(operationName = 'getMeSomeReports')
     List<RemoteReport> getMeSomeReports() {
         List<RemoteReport> reports = []
-        reports << RemoteReport.findOrSaveWhere(reportId: 1, errorCode: 1, errorMessage: 'Binders full of women.')
-        reports << RemoteReport.findOrSaveWhere(reportId: 2, errorCode: 1, errorMessage: 'Binder?! I hardly know her!')
+        reports << RemoteReport.findOrSaveWhere(reportId: 1L, errorCode: 1L, errorMessage: 'Binders full of women.')
+        reports << RemoteReport.findOrSaveWhere(reportId: 2L, errorCode: 1L, errorMessage: 'Binder?! I hardly know her!')
         reports
     }
 }
