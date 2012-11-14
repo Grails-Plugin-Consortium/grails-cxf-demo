@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
         //runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.4"
 
-        compile ":cxf:1.0.6"
+        compile ":cxf:1.0.7"
 //        compile ":cxf-client:1.4.1"
 
         build ":tomcat:$grailsVersion"
