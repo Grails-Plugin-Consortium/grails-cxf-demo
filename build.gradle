@@ -70,7 +70,7 @@ dependencies {
     compile "org.hibernate:hibernate-ehcache"
     compile "org.grails.plugins:scaffolding"
 
-    compile 'org.grails.plugins:grails-cxf:3.0.3.5'
+    compile 'org.grails.plugins:grails-cxf:3.0.5'
 
     runtime "org.grails.plugins:asset-pipeline"
 
