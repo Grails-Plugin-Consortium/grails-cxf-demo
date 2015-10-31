@@ -30,3 +30,7 @@
 
 # "temporary" build files
 /target
+.gradle
+.idea
+.asscache
+
