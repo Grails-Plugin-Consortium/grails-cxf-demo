@@ -15,7 +15,7 @@ buildscript {
 }
 
 plugins {
-    id "io.spring.dependency-management" version "0.5.2.RELEASE"
+    id "io.spring.dependency-management" version "0.5.4.RELEASE"
 }
 
 version "0.1"
@@ -52,11 +52,6 @@ dependencyManagement {
     applyMavenExclusions false
 }
 
-configurations.all {
-    // check for updates every build
-    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
-}
-
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-starter-actuator"
@@ -70,7 +65,7 @@ dependencies {
     compile "org.hibernate:hibernate-ehcache"
     compile "org.grails.plugins:scaffolding"
 
-    compile 'org.grails.plugins:grails-cxf:3.0.5'
+    compile 'org.grails.plugins:cxf:3.1.0'
 
     runtime "org.grails.plugins:asset-pipeline"
 

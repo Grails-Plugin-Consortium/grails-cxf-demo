@@ -7,7 +7,7 @@ import javax.jws.WebMethod
 import javax.jws.WebResult
 
 @Transactional
-@GrailsCxfEndpoint
+@GrailsCxfEndpoint(name="Demo2", port="DemoPort")
 class DemoService {
 
     @WebMethod

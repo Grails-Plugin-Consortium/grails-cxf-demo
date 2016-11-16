@@ -1,1 +1,1 @@
-//include 'grails-cxf', '../grails-cxf'
+//include 'cxf', '../grails-cxf'

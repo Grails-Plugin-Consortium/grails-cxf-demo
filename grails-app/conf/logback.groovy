@@ -9,6 +9,7 @@ appender('STDOUT', ConsoleAppender) {
 }
 
 logger 'org.grails.cxf', INFO, ['STDOUT']
+logger 'org.apache.cxf', INFO, ['STDOUT']
 
 root(ERROR, ['STDOUT'])
 

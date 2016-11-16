@@ -1,4 +1,9 @@
 ---
+#cxf:
+#  servlet:
+#    mapping: /webservices/*
+
+---
 grails:
     profile: web
     codegen:

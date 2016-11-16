@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/grails-cxf-demo.iml" filepath="$PROJECT_DIR$/grails-cxf-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grails-cxf-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/grails-cxf-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grails-cxf-demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/grails-cxf-demo_main.iml" group="grails-cxf-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grails-cxf-demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/grails-cxf-demo_test.iml" group="grails-cxf-demo" />
     </modules>
   </component>
 </project>
